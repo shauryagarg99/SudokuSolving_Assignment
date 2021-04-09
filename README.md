@@ -23,6 +23,7 @@ Conversion notes:
 
 **Building a Sudoku Solver using Boolean Satisfiability in OCaml**
 
+Go to the following link instead of reading here: https://docs.google.com/document/d/1JlcHqS0l8iriLegUhW8Z7hmBOWn9f1EgGxZXnfyOWsM/edit?usp=sharing
 **<span style="text-decoration:underline;">Objectives</span>**
 
 In this assignment, you will build an application that solves a Sudoku puzzle by modeling it as a Boolean Satisfiability problem. You will get extensive practice in list processing in OCaml, an introduction to data types, and an understanding of just how powerful the functional programming paradigm can be. You will learn a famous algorithm for checking the satisfiability of a boolean formula, called the Davis-Putnam-Logemann-Loveland (DPLL) algorithm, and how to think of a sudoku puzzle as an optimization problem with constraints. You will also write code that converts between different data-types. Lastly, while you are highly encouraged to locally test your code at every step, a property-based test suite has been provided for you which uses randomized testing to find and report inputs for which your potentially buggy code fails (You will code the invariants yourself!)
