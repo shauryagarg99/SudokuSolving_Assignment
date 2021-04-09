@@ -29,7 +29,7 @@ In this assignment, you will build an application that solves a Sudoku puzzle by
 
 **<span style="text-decoration:underline;">Introduction</span>**
 
-_Sudoku Puzzles_: **Sudoku** is a [logic](https://en.wikipedia.org/wiki/Logic)-based, [combinatoria](https://en.wikipedia.org/wiki/Combinatorics)l, number-placement [puzzle](https://en.wikipedia.org/wiki/Puzzle). In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution (from Wikipedia). Sudokus are generalizable to _any _nxn grid, as long as n is a perfect square. 
+_Sudoku Puzzles_: **Sudoku** is a logic-based, combinatorial, number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contains all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution (from Wikipedia). Sudokus are generalizable to _any _nxn grid, as long as n is a perfect square. 
 
 _Variables and Literals: _A variable in the context of this assignment is any symbol that takes values in the set {TRUE, FALSE}. We will represent variables as integers for ease of scalability. A literal is either a variable, or the negation of that variable. We will use ‘~’ to represent a negation. For example, in the boolean formula “(1 AND 2) OR (~1)”, the variables are {1,2} and there are three literals: {1, ~1, 2}.
 
