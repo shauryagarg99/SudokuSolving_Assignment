@@ -33,6 +33,11 @@ let build_constraint_1 (n:int) (x:starting) : cnf =
   failwith "TODO"
 
 
+(* Take a variable v, and a list of variables xs, and create a cnf where each 
+clause is [~v;~e], where e is an element of xs. 
+*)
+let rec func1 (v:variable) (xs:variable list) : cnf = 
+  failwith "TODO"
 
 (* Take a list of variables, and construct a cnf such that no two of those 
    variables can be true. That is, atmost one of the variables can be true. *)
