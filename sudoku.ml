@@ -233,3 +233,6 @@ let solve_and_print (filename:string) =
   match solved with
   | None -> failwith "impossible"
   | Some x -> print_sudoku n x
+
+(* Run this when you are done! *)
+(* let _ = solve_and_print "sudokus/sudoku3.txt" *)
