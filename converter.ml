@@ -13,7 +13,7 @@ type input_2 =
   
 (* Creates a new input type that removes all Not's from input_1 *)
 let rec demorgan (f:input_1) : input_2 = 
-  failwith "TODO"
+  failwith "TODO" 
 
 
 (* A function that takes two lists of lists, and returns a list with all possible 
